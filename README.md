@@ -6,6 +6,6 @@ A basic web development tutorials for beginners
 This tutrial is to assist beginners 
 
 ### Source
-Generated during Prof Erman Coşkun Web Development Lectures
+Generated during Prof Erman Coşkun's Web Development Lectures
 
 

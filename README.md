@@ -2,4 +2,7 @@
 A basic web development tutorials for beginners 
 
 ## Purpose
-This tutrial is assist beginners 
+This tutrial is to assist beginners 
+
+### source
+Generated during Prof Erman Coşkun Web Development Lectures

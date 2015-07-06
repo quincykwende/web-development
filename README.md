@@ -5,8 +5,6 @@ A basic web development tutorials for beginners
 ## Purpose
 This tutrial is to assist beginners 
 
-### Source
-
 #### HTML
   Generated during Prof Erman Coşkun's Web Development Lectures
   

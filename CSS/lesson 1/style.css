@@ -1,0 +1,21 @@
+body
+{
+	margin: 80px;
+}
+p
+{
+	font-size:100%;
+	color:red;
+}
+.color
+{
+	color:green;
+}
+.size
+{
+	font-size:300%;				
+}
+.underline
+{
+	text-decoration:underline;
+}

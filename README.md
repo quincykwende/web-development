@@ -9,7 +9,8 @@ This tutrial is to assist beginners
   Generated during Prof Erman Coşkun's Web Development Lectures
   
 #### CSS
-
+  Generated during Gülin Ülker's CSS Lectures
+  
 #### JS
 
 #### PHP

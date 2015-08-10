@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<customer>
+	<id>1</id>
+	<birthdate>1992-06-20</birthate>
+	<gender>Female</gender>
+</customer>

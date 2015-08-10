@@ -1,0 +1,4 @@
+	<!ELEMENT customer (id, birthdate, gender)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT birthdate (#PCDATA)>
+	<!ELEMENT gender (#PCDATA)>

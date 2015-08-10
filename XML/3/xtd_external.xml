@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE customer SYSTEM "customer.dtd">
+<customer>
+	<id>1</id>
+	<birthdate>1992-06-20</birthdate>
+	<gender>Female</gender>
+</customer>

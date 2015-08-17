@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Javascript</title>
+	<style type="text/css">
+		#code
+		{
+			color:blue;
+			font-size:xx-large;
+		}	
+	</style>
+</head>
+
+<body>
+	<button onclick="alert('Hello World!')"> Click me </button>
+	<p id="code" > This is our first javascript code</p>
+	<script type="text/javascript">
+		document.getElementById("code").innerHTML = "We change the content of #code";
+		alert(document.getElementById("code").innerHTML);
+	</script>
+</body>
+
+</html>

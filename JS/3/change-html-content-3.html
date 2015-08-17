@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Javascript</title>
+	<style type="text/css">
+		body
+		{
+			color:#fff;
+		}
+		#code
+		{
+			font-size:xx-large;
+		}	
+	</style>
+</head>
+
+<body>
+	
+	<p id="code" > This is our first javascript code</p>
+	<p id="code-2" > sample text</p>
+	
+	<button onclick="alert('Hello World!')"> Click me </button>
+	
+	<script type="text/javascript">
+		document.getElementById("code").innerHTML = "Change Background color with Javascript";
+		
+		document.getElementById("code-2").innerHTML = "Also we can change the color of a tag";
+		
+		document.bgColor = "gray";
+		
+		document.getElementById("code-2").style.background = "black";
+		
+		//change text color with javascript
+		document.getElementById("code-2").style.color = "red";
+		
+		//add padding with javascript
+		document.getElementById("code-2").style.paddingTop = "10px";
+		
+		document.getElementById("code-2").style.paddingRight = "10px";
+		
+		document.getElementById("code-2").style.paddingBottom = "10px";
+		
+		document.getElementById("code-2").style.paddingLeft = "10px";
+		
+		//alert(document.getElementByTagName("mytag").innerHTML);
+	</script>
+</body>
+
+</html>

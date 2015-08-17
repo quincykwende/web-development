@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>
+			Cd list
+		</title>		
+		
+	</head>
+	<body>
+		<h2> CD Table </h2>
+		
+		<script type="text/javascript">
+			if(window.XMLHttpRequest){
+				xmlhttp = new XMLHttpRequest();
+			}
+			else {
+				xmlhttp = new ActiveObject(Microsoft.XMLHTTP);
+			}
+			
+			xmlhttp.open("GET", "http://localhost/web-development/JS-XML/catalog.xml", false);
+			
+			xmlhttp.send();
+			
+			xmlDoc = xmlhttp.responseXML;
+			
+			document.write("<table><tr><th>Artist</th><th>Title</th></tr>");
+			
+			var x = xmlDoc.getElementsByTagName("Cd");	
+			
+			for(i = 0; i < x.length; i++){
+				document.write("<tr><td>");
+				document.write(x[i].getElementsByTagName("Artist")[0].childNodes[0].nodeValue);
+				document.write("</td><td>");
+				document.write(x[i].getElementsByTagName("Title")[0].childNodes[0].nodeValue);
+				document.write("</td></tr>");
+			}
+			
+			document.write("</table>");
+			
+		</script>
+	</body>
+</html>

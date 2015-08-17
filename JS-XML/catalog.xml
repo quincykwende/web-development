@@ -2,12 +2,45 @@
 <catalog>
 
 	<Cd>
-		<Title>FSF</Title>
-		<Artist>DSFSD</Artist>
-		<Country>SDFDS</Country>
-		<Company>FSDF</Company>
-		<Price>SDFDS</Price>
-		<Year>DFSF</Year>
+		<Title>Title 1</Title>
+		<Artist>Artist 1</Artist>
+		<Country>Turkey</Country>
+		<Company>Soap</Company>
+		<Price>$20</Price>
+		<Year>2014</Year>
 	</Cd>
+	<Cd>
+		<Title>Title 2</Title>
+		<Artist>Artist 2</Artist>
+		<Country>Cameroon</Country>
+		<Company>Soap</Company>
+		<Price>$210</Price>
+		<Year>2004</Year>
+	</Cd>
+	<Cd>
+		<Title>Title 3</Title>
+		<Artist>Artist 3</Artist>
+		<Country>Nigeria</Country>
+		<Company>Soap</Company>
+		<Price>$320</Price>
+		<Year>2011</Year>
+	</Cd>
+	<Cd>
+		<Title>Title 4</Title>
+		<Artist>Artist 4</Artist>
+		<Country>Côte d’Ivoire</Country>
+		<Company>Soap</Company>
+		<Price>$30</Price>
+		<Year>2012</Year>
+	</Cd>
+	<Cd>
+		<Title>Title 5</Title>
+		<Artist>Artist 5</Artist>
+		<Country>Uganda</Country>
+		<Company>Soap</Company>
+		<Price>$220</Price>
+		<Year>2011</Year>
+	</Cd>
+	
 	
 </catalog>
